@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Church Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="test.css"> <!-- Link to external CSS -->
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="#">Church Name</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#events">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sermons">Sermons</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section d-flex align-items-center justify-content-center text-center">
+  <div class="container">
+    <h1 class="display-4">Welcome to [Church Name]</h1>
+    <p class="lead">A place of faith, hope, and love.</p>
+    <a href="#services" class="btn btn-primary btn-lg">Join Us on Sunday</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About Our Church</h2>
+        <p>Our church is a place of worship, community, and support. We welcome everyone with open arms and invite you to grow spiritually with us. Our mission is to spread love and faith through meaningful services, community outreach, and deep connections.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="1.jpg" class="img-fluid rounded shadow" alt="Church Image">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Events Section -->
+<section id="events" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Upcoming Events</h2>
+    <div class="row">
+      <!-- Event Card 1 -->
+      <div class="col-md-4">
+        <div class="card event-card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Community Outreach</h5>
+            <p class="card-text">Join us in making a difference in our community this Saturday.</p>
+            <p><strong>Date:</strong> October 28, 2024</p>
+            <a href="#" class="btn btn-outline-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Event Card 2 -->
+      <div class="col-md-4">
+        <div class="card event-card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Youth Service</h5>
+            <p class="card-text">A special service led by our youth ministry with powerful worship and teaching.</p>
+            <p><strong>Date:</strong> November 4, 2024</p>
+            <a href="#" class="btn btn-outline-primary">Join Us</a>
+          </div>
+        </div>
+      </div>
+      <!-- Event Card 3 -->
+      <div class="col-md-4">
+        <div class="card event-card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Thanksgiving Service</h5>
+            <p class="card-text">A special thanksgiving service to reflect on the blessings of the year.</p>
+            <p><strong>Date:</strong> November 25, 2024</p>
+            <a href="#" class="btn btn-outline-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sermons Section -->
+<section id="sermons" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Recent Sermons</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card sermon-card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">The Power of Faith</h5>
+            <p class="card-text">Watch Pastor John deliver a powerful message on faith and its transformative power.</p>
+            <a href="#" class="btn btn-primary">Watch Sermon</a>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat sermon cards for more sermons -->
+    </div>
+  </div>
+</section>
+
+<!-- Sunday Services Schedule Section -->
+<section id="services" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2>Sunday Services</h2>
+    <p class="lead">Join us for worship every Sunday</p>
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Morning Service</h5>
+        <p>9:00 AM - 10:30 AM</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Evening Service</h5>
+        <p>6:00 PM - 7:30 PM</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Online Service</h5>
+        <p>Available for live streaming</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Location Section -->
+<section id="location" class="py-5">
+  <div class="container text-center">
+    <h2>Our Location</h2>
+    <p class="lead">Come visit us!</p>
+    <div class="map-responsive">
+      <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="450" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Us Section -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="col-12">
+        <label for="message" class="form-label">Your Message</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 bg-dark text-white text-center">
+  <p>&copy; 2024 Church Name. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
